@@ -40,7 +40,7 @@ describe Dice do
       expect( results ).to include(4)
     end
 
-    it 'shoud set its value variable to the result of the roll' do
+    it 'should set its value variable to the result of the roll' do
       dice = Dice.new(sides: 4)
       100.times do
         dice.roll
